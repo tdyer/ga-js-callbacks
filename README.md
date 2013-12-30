@@ -1,4 +1,4 @@
-# Simple Iterator. simple_iterator.js
+# Iterator. simple_iterator.js
     This is the most inefficient way of performing an operation. This
     will iterate twice through all the effected DOM
     elements/nodes. First to find the element with a class of 'test'.
@@ -31,3 +31,7 @@
     pointer.
 
     You'll see more on this in the lab for javascript event handling.
+
+
+# References:
+    Javascript Patterns: Chapter 4.
