@@ -11,7 +11,7 @@ var findNodes = function (callback) {
     var testElements = document.getElementsByClassName("test");
     for(var i = 0; i < testElements.length; i++){
 	// AAAAAAhhhhgggg, the callback's this pointer is wrong.
-        // The 'this' pointer is pointing to the element, NOT to myapp object!
+        // The 'this' pointer is pointing to the window object, NOT to myapp object!
 	callback(testElements[i]);
     };
     return nodes;
